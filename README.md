@@ -78,6 +78,10 @@ docker run -itd -v /root/chatgpt(本地目录):/usr/share/nginx/html --name ngin
 
 由于很多群友都有类似需求，我开发了一个款基于PHP+Mysql环境的商业版软件，已正式发布。有兴趣的话您可以访问这里查看详情：https://github.com/dirk1983/chatgpt_commercial
 
+8.OpenAI服务器访问超时或未知类型错误、appKey修改失败情况
+
+使用chomd 777 授权apikey.php和chatlog.php 或者直接授权整个文件夹
+
 ------
 
 附OpenAI官网的模型和接口调用介绍：
